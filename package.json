@@ -4,7 +4,7 @@
   "description": "Chrome extension that combines Twitch chat and YouTube chat from livestreams",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,13 @@
   "dependencies": {
     "tmi.js": "^1.8.5",
     "youtube-chat": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.231",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
   }
 }

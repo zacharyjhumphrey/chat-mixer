@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Chat Mixer",
+  "version": "1.0",
+  "description": "Combines Twitch chat and YouTube chat into one feed",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
